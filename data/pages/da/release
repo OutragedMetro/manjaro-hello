@@ -1,17 +1,17 @@
-<big>Manjaro 20.0</big>
+<big>Manjaro 20.1</big>
 
-Vi er glade for at offentliggøre en ny stabil udgivelse af Manjaro Linux, Lysia.
+Vi er glade for at offentliggøre en ny stabil udgivelse af Manjaro Linux, Mikah.
 
 Xfce-udgaven er fortsat vores stolthed og har fået den opmærksomhed, den fortjener. Få kan hævde at tilbyde en sådan poleret, integreret og førende Xfce-oplevelse. Med denne udgivelse følger Xfce 4.14 og fokus har været at at finpudse brugeroplevelsen med desktop og windows manager. Det gennemgående tema er Matcha. Den nye funktion Display-profiler giver dig mulighed for at gemme en eller flere profiler til din foretrukne skærmkonfiguration. For at gøre det lidt lettere har vi implementeret automatisk anvendelse af profiler, når nye skærme er tilsluttet.
 
-Vores KDE-udgave giver det kraftfulde Plasma 5.18-skrivebordsmiljø et unikt udseende og præg, som vi er designet specifikt til denne version. Det komplette sæt af Breath2-temaer inkluderer lyse og mørke versioner, animerede vinduer, Konsole-profiler, Yakuake-temaer og mange flere små detaljer. Vi har givet tekst programmet Kate nogle ekstra farveskemaer og tilbyder Plasma-Simplemenu som et alternativ til den traditionelle Kickoff-Launcher. Med et bredt udvalg af de nyeste KDE-Apps 20.04 og andre applikationer stræber Manjaro-KDE at være et alsidigt og elegant miljø klar til alle dine daglige behov.
+Vores KDE-udgave giver det kraftfulde Plasma 5.19-skrivebordsmiljø et unikt udseende og præg, som vi er designet specifikt til denne version. Det komplette sæt af Breath2-temaer inkluderer lyse og mørke versioner, animerede vinduer, Konsole-profiler, Yakuake-temaer og mange flere små detaljer. Vi har givet tekst programmet Kate nogle ekstra farveskemaer og tilbyder Plasma-Simplemenu som et alternativ til den traditionelle Kickoff-Launcher. Med et bredt udvalg af de nyeste KDE-Apps 20.08 og andre applikationer stræber Manjaro-KDE at være et alsidigt og elegant miljø klar til alle dine daglige behov.
 
 Med vores Gnome-udgave baseret på 3.36-serien er der visuelle opdateringer til en række applikationer og grænseflader, især login- og oplåsningsgrænseflader. GNOME shell extensions administreres nu ved hjælp af en ny app *Extensions*, der håndterer opdatering, konfiguration og fjernelse eller deaktivering af udvidelser. En knap *Forstyr ikke* blev føjet til underretnings popover. Når det er aktiveret, er meddelelser skjult, indtil knappen bliver slået fra. Som standard ændrer vores eget dynamiske tapet sit farvetema hele dagen. Derudover er GDM opdateret og vi forbedret vores Gnome-Layout-switcher. Vi opdaterede vores liste over forudinstallerede pakker, zsh er den nye standardskal, og applikationer sorteres nu i mapper i en ren appskuffe.
 
-Pamac 9.4-serien er opdateret. I den forbedrede pakkehåndtering har vi som standard aktiveret snap- og flatpak-support. Du kan nu installere snaps eller flatpaks med Pamac enten grafisk eller i terminal og kan derved få adgang til et endnu større udvalg af de nyeste Linux-applikationer. For Gnome-brugere aktiverede vi lignende funktioner som understøttelse af Gnome-software og derved hente pakkeoplysninger ved blot at højreklikke på dem i gnome-shell-appskuffen. Og hvis du søger efter en app, du ikke har, tilbyder pamac at installere den for dig.
+Pamac 9.5 series received a few updates. In this round we optimized internal check dep algorithm for smarter performance, enhanced the alpm error handling, optimized internal search algorithm for better regex support and applied database performance improvements. We also now build AUR packages and install as much as possible of them in a single run.
 
 Manjaro Architect understøtter nu ZFS-installation ved at levere de nødvendige kernemoduler.
 
-Kernel 5.6 bruges til denne udgivelse, såsom de seneste tilgængelige drivere til dato. I forhold til den sidste version af installationsmediet er vores værktøjer blevet forbedret og finpudset.
+Kernel 5.8 bruges til denne udgivelse, såsom de seneste tilgængelige drivere til dato. I forhold til den sidste version af installationsmediet er vores værktøjer blevet forbedret og finpudset.
 
-Vi håber, du nyder denne udgivelse og fortæl os, hvad du synes om Lysia.
+Vi håber, du nyder denne udgivelse og fortæl os, hvad du synes om Mikah.
