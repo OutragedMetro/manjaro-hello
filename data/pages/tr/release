@@ -1,17 +1,17 @@
-<big>Manjaro 20.0</big>
+<big>Manjaro 20.1</big>
 
-Manjaro Linux kararlı sürümü Lysia'yı yayınlamaktan mutluluk duyuyoruz.
+Manjaro Linux kararlı sürümü Mikah'yı yayınlamaktan mutluluk duyuyoruz.
 
 Xfce hak ettiği ilgiyi aldı ve en iyi sürümümüz olmaya devam ediyor. Çok az dağıtım sizlere böyle gösterişli, bütünleşmiş ve modern bir Xfce deneyimi sunar. Bu sürüm ile çoğunlukla masaüstü ve pencere yöneticisini güzelleştirdiğimiz Xfce 4.14'ü paylaşıyoruz. Ayrıca yeni temamız olan Matcha'yı sizlere sunuyoruz. Yeni Display-Profiles özelliği, tercih ettiğiniz ekran yapılandırması için bir veya daha fazla profil saklamanızı sağlar. İşleri daha da kolaylaştırmak için yeni ekranlar bağlandığında profillerin otomatik olarak uygulanmasını sağladık.
 
-Bu sürüm ile birlikte KDE sürümümüz, güçlü, olgun ve zengin özelliklere sahip Plasma 5.18 masaüstü ortamını ve yeniden tasarladığımız temamızı içerir. Breath2 temalarının tamamı açık ve koyu sürümleri, animasyonlu açılış ekranı, Konsole profilleri, Yakuake kaplamaları ve daha pek çok küçük ayrıntıyı içerir. Metin editörü Kate'i ek renk şemaları ve geleneksel Kickoff-Launcher'a alternatif olarak Plasma-Simplemenu'yu sunuyoruz. En son sürümü ile KDE-Apps 20.04 ve diğer uygulamaların geniş bir yelpazesi ile Manjaro-KDE, tüm günlük ihtiyaçlarınız için hazır çok yönlü ve zarif bir ortam olmayı hedeflemektedir.
+Bu sürüm ile birlikte KDE sürümümüz, güçlü, olgun ve zengin özelliklere sahip Plasma 5.19 masaüstü ortamını ve yeniden tasarladığımız temamızı içerir. Breath2 temalarının tamamı açık ve koyu sürümleri, animasyonlu açılış ekranı, Konsole profilleri, Yakuake kaplamaları ve daha pek çok küçük ayrıntıyı içerir. Metin editörü Kate'i ek renk şemaları ve geleneksel Kickoff-Launcher'a alternatif olarak Plasma-Simplemenu'yu sunuyoruz. En son sürümü ile KDE-Apps 20.08 ve diğer uygulamaların geniş bir yelpazesi ile Manjaro-KDE, tüm günlük ihtiyaçlarınız için hazır çok yönlü ve zarif bir ortam olmayı hedeflemektedir.
 
 Gnome 3.36 serisi ile birlikte özellikle giriş ve kilit ekranı başta olmak üzere bir çok uygulama ve arayüz yenilikleri içermektedir. Gnome eklentileri artık yeni eklentiler uygulaması ile yönetilebilir hale geldi. Eklentiler uygulaması ile eklentileri güncelleyebilir, yüklü eklentilerin ayarlarını değiştirebilir, eklenti kaldırabilir veya devre dışı bırakabilirsiniz. Bildirim uygulamasına rahatsız etme butonu eklendi. Böylelikle bu seçenek aktif olduğu sürece bildirimler gizlenir. Varsayılan dinamik duvar kağıdı uygulamamız gün boyunca renk temasını değiştirir. Ek olarak GDM ve Gnome-Layout-Switcher güncelledik. Ön yüklü uygulamalarımızı düzenledik, zsh ve düzenli klasörlenmiş bir uygulamalar ekranı ile birlikte güncellemelerimizi tamamladık.
 
-Pamac 9.4 serisi bir kaç yeni güncelleme içermektedir. Paket yöneticimizde snap ve flatpak varsayılan olarak aktif edilmiştir. Artık daha fazla uygulamaya Pamac arayüzünden veya terminal kullanarak erişebilirsiniz.Gnome kullanıcıları için, Gnome-Software tarafından desteklenen benzer özellikleri, gnome-shell uygulama çekmecesinde sağ tıklatarak daha fazla paket bilgisi almak için etkinleştirdik. Ve sahip olmadığınız bir uygulamayı ararsanız, pamac sizin için yüklemeyi önerir.
+Pamac 9.5 series received a few updates. In this round we optimized internal check dep algorithm for smarter performance, enhanced the alpm error handling, optimized internal search algorithm for better regex support and applied database performance improvements. We also now build AUR packages and install as much as possible of them in a single run.
 
 Manjaro Architect ZFS kurulumunu gerekli çekirdek modüllerini sağlayarak gerçekleştirir.
 
-5.6 LTS çekirdek sürümü ile güncel sürücüleri sizlerle buluşturur. Yayınlanan son sürüm ile araçlarımız iyileştirildi ve geliştirildi.
+5.8 çekirdek sürümü ile güncel sürücüleri sizlerle buluşturur. Yayınlanan son sürüm ile araçlarımız iyileştirildi ve geliştirildi.
 
-Umarız bu sürümden keyif alırsınız ve Lysia hakkındaki düşüncelerinizi bizimle paylaşırsınız.
+Umarız bu sürümden keyif alırsınız ve Mikah hakkındaki düşüncelerinizi bizimle paylaşırsınız.
