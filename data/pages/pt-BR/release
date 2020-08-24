@@ -1,17 +1,17 @@
-<big>Manjaro 20.0</big>
+<big>Manjaro 20.1</big>
 
-Estamos felizes em publicar outra versão estável do Manjaro Linux, chamada Lysia.
+Estamos felizes em publicar outra versão estável do Manjaro Linux, chamada Mikah.
 
 A edição XFCE continua sendo nossa principal oferta e recebeu a atenção que merece. Apenas alguns podem afirmar oferecer uma experiência tão refinada, integrada e de ponta no XFCE. Com esta versão, enviamos o XFCE 4.14 e nós concentramos principalmente em aprimorar a experiência do usuário com o gerenciador de desktop e janela. Também mudamos para um novo tema chamado Matcha. Um novo recurso Display-Profiles permite armazenar um ou mais perfis para sua configuração de exibição preferida. Também implementamos a aplicação automática de perfis quando novos monitores são conectados.
 
-Nossa edição do KDE fornece ao ambiente de desktop Plasma 5.18 poderoso, maduro e rico em recursos, uma aparência e sensação únicas que foram completamente redesenhadas em 2020. O conjunto completo de temas do Breath2 inclui versões clara e escura, uma animada tela de abertura, perfis para o Konsole, skins Yakuake e muitos outros pequenos detalhes. Encerramos o editor de texto Kate com alguns esquemas de cores adicionais e oferecemos o Plasma-Simplemenu como uma alternativa ao tradicional Kickoff-Launcher. Com uma ampla seleção dos mais recentes aplicativos do KDE 20.04 e outros aplicativos, o Manjaro KDE busca ser um ambiente versátil e elegante, pronto para todas as suas necessidades diárias.
+Nossa edição do KDE fornece ao ambiente de desktop Plasma 5.19 poderoso, maduro e rico em recursos, uma aparência e sensação únicas que foram completamente redesenhadas em 2020. O conjunto completo de temas do Breath2 inclui versões clara e escura, uma animada tela de abertura, perfis para o Konsole, skins Yakuake e muitos outros pequenos detalhes. Encerramos o editor de texto Kate com alguns esquemas de cores adicionais e oferecemos o Plasma-Simplemenu como uma alternativa ao tradicional Kickoff-Launcher. Com uma ampla seleção dos mais recentes aplicativos do KDE 20.08 e outros aplicativos, o Manjaro KDE busca ser um ambiente versátil e elegante, pronto para todas as suas necessidades diárias.
 
 Com nossa edição do GNOME baseada na série 3.36, incluímos atualizações visuais para vários aplicativos e interfaces, sendo de destacar as interfaces de login e desbloqueio. As extensões de shell do GNOME agora são gerenciadas usando um novo aplicativo de extensões que lida com a atualização, configuração e remoção ou desativação de extensões. Um botão Não perturbe foi adicionado ao popover de notificações. Quando ativada, as notificações ficam ocultas até que o botão seja desativado. Por padrão, nosso próprio papel de parede dinâmico muda seu tema de cores ao longo do dia. Além disso, atualizamos o GDM e melhoramos muito o nosso Gnome-Layout-Switcher. Atualizamos nossa lista de pacotes pré-instalados, ZSH é o novo shell padrão e os aplicativos agora são classificados em pastas em uma gaveta limpa de aplicativos.
 
-A série Pamac 9.4 recebeu algumas atualizações. Aprimorando nosso gerenciamento de pacotes, ativamos o suporte a Snap e Flatpak por padrão. Agora você pode instalar Snaps ou Flatpaks com muita facilidade com o Pamac na interface do usuário e no terminal para fazer mais uso de uma seleção ainda maior de aplicativos Linux mais recentes. Para os usuários do Gnome, ativamos recursos semelhantes aos suportados pelo Gnome-Software para obter mais informações sobre os pacotes, clicando com o botão direito do mouse na gaveta do aplicativo gnome-shell. E se você procurar um aplicativo que não possui, o Pamac oferece a instalação para você.
+Pamac 9.5 series received a few updates. In this round we optimized internal check dep algorithm for smarter performance, enhanced the alpm error handling, optimized internal search algorithm for better regex support and applied database performance improvements. We also now build AUR packages and install as much as possible of them in a single run.
 
 O Manjaro Architect agora suporta a instalação do ZFS, fornecendo os módulos de kernel necessários.
 
-O kernel 5.6 é usado para esta versão, como os drivers mais recentes disponíveis até o momento. Em relação ao último release da mídia de instalação, nossas ferramentas foram aprimoradas e polidas.
+O kernel 5.8 é usado para esta versão, como os drivers mais recentes disponíveis até o momento. Em relação ao último release da mídia de instalação, nossas ferramentas foram aprimoradas e polidas.
 
-Esperamos que você goste deste lançamento e deixe-nos saber o que você acha da Lysia.
+Esperamos que você goste deste lançamento e deixe-nos saber o que você acha da Mikah.
