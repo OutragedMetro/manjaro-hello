@@ -8,7 +8,7 @@ Vores KDE-udgave giver det kraftfulde Plasma 5.19-skrivebordsmiljø et unikt uds
 
 Med vores Gnome-udgave baseret på 3.36-serien er der visuelle opdateringer til en række applikationer og grænseflader, især login- og oplåsningsgrænseflader. GNOME shell extensions administreres nu ved hjælp af en ny app *Extensions*, der håndterer opdatering, konfiguration og fjernelse eller deaktivering af udvidelser. En knap *Forstyr ikke* blev føjet til underretnings popover. Når det er aktiveret, er meddelelser skjult, indtil knappen bliver slået fra. Som standard ændrer vores eget dynamiske tapet sit farvetema hele dagen. Derudover er GDM opdateret og vi forbedret vores Gnome-Layout-switcher. Vi opdaterede vores liste over forudinstallerede pakker, zsh er den nye standardskal, og applikationer sorteres nu i mapper i en ren appskuffe.
 
-Pamac 9.5 series received a few updates. In this round we optimized internal check dep algorithm for smarter performance, enhanced the alpm error handling, optimized internal search algorithm for better regex support and applied database performance improvements. We also now build AUR packages and install as much as possible of them in a single run.
+Pamac 9.5 series er også updateret. Denne gang har vi forbedret interne algoritme for kontrol af pakke afhængigheder, forbedret håndtering af alpm fejlmeddelelser, forbedret den interne søge algoritme med bedre regex support og desuden forbedret søgning i databasen. For AUR pakker vil Pamac opbygge og installere så meget så muligt i en enkelt transaction.
 
 Manjaro Architect understøtter nu ZFS-installation ved at levere de nødvendige kernemoduler.
 
