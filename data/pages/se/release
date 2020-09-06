@@ -1,0 +1,17 @@
+<big>Manjaro 20.1</big>
+
+Vi gläds år att publicera ytterligare en stabil release av Manjaro Linux som kallas Mikah.
+
+Xfce-utgåvan fortsätter att vara vårt flaggskepp bland det som erbjuds och har fått den uppmärksamhet den förtjänar. Endast ett fåtal kan erbjuda en så pass polerad, integrerad och framkantsledande Xfce-upplevelse. Med den här releasen kommer Xfce 4.14 och vi har mest fokuserat på att finjustera användarupplevelsen med skrivbordet och fönsterhanteraren. Vi har också bytt till ett nytt tema som kallas Matcha. Med den nya funktionen Display-Profiles kan du lagra en eller flera profiler för din önskade skärmkonfiguration. Vi har också implementerat en auto-applikation för profiler när nya skärmar ansluts.
+
+Vår KDE-version ger den kraftfulla, mogna och funktionsrika Plasma 5.19-skrivbordsmiljön med ett unikt utseende och känsla, vilket vi designade om helt under våren 2020. Den kompletta uppsättningen av Breath2-teman inkluderar ljusa och mörka versioner, animerade uppstartsbilder, Konsole-profiler, Yakuake-skin och många andra midre saker. Vi har avrundat textredigeraren Kate med några ytterligare färgscheman och erbjuder Plasma-Simple-menyer som ett alternativ till den traditionella Kickoff-Launcher. Med ett brett urval av de senaste KDE-Apps 20.08 och andra applikationer syftar Manjaro-KDE till att vara en mångsidig och elegant miljö som är redo för alla dina behov som du kan behöva för det mesta.
+
+Med vår Gnome-version baserad på 3.36-serien inkluderar vi visuella uppdateringar för ett antal applikationer och gränssnitt, särskilt anmärkningsvärt är inloggnings- och upplåsningsgränssnitten. GNOME-shell hanteras nu med en ny extensions-app som hanterar uppdatering, konfigurering och borttagning eller inaktivering av extensions. En Stör-ej-knapp lades till i popover-meddelandet. När det är aktiverat döljs aviseringar tills knappen slås av. Som standard ändras vårt eget dynamiska bakgrundsmönster sitt färgtema under en hel dag. Dessutom uppdaterade vi GDM och förbättrade vår Gnome-Layout-switcher en hel del. Vi uppdaterade vår lista över förinstallerade paket, zsh är det nya standard-skalet och applikationerna sorteras nu i mappar i en rensad applikations-draglist.
+
+Pamac 9.5-serien har fått några få uppdateringar. I den här omgången optimerade vi en intern dep-algoritm kontroll för smartare prestanda, förbättrad alpm-fel-hantering, samt optimerade den interna sök-algoritmen för bättre regex-stöd och tillämpade databasprestanda-förbättringar. Vi bygger numera också AUR-paket och installerar dem så mycket som möjligt i en enda körning.
+
+Manjaro Architect stöder nu ZFS-installation genom att tillhandahålla de nödvändiga kernel-modulerna.
+
+Kernel 5.8 används i denna release med de senaste drivrutinerna tillgängliga till dagen datum. I relation till den senaste versionen av installationsmediet har våra verktyg förbättrats och polerats.
+
+Vi hoppas att du gillar den här releasen och berätta gärna vad du tycker om Mikah.
