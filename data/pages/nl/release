@@ -1,0 +1,17 @@
+<big>Manjaro 20.1</big>
+
+Het is ons een waar genoegen alweer een nieuwe stabiele versie van Manjaro Linux te kunnen aankondigen, Mikah genaamd.
+
+De XFCE-editie blijft ons vlaggenschip en heeft alle aandacht gekregen die het vereist. Slechts een beperkt aantal distro's kunnen zo'n gepolijste, geïntegreerde en toonaangevende XFCE-ervaring aanbieden. Met deze versie bieden we XFCE 4.14 aan, en hebben we ons geconcentreerd op het polijsten van de gebruikerservaring met de nieuwe desktop en window manager. Ook hebben we een nieuw thema genaamd Matcha toegevoegd. Het nieuwe Display Profiles staat je toe meerdere profielen voor je favoriete beeldschermconfiguratie op te slaan.  We hebben ook een nieuwe auto-configuratie van profielen geïmplementeerd wanneer nieuwe schermen worden aangesloten.
+
+Onze KDE-editie biedt je de krachtige, volwassen en veelzijdige Plasma 5.19-desktopomgeving met de unieke look-and-feel die we in de lente van 2020 volledig opnieuw hebben ontworpen. De volledige set van Breath2 thema's bevat lichte en donkere versies, geanimeerd openingsscherm, Konsole-profielen, Yakuake skins, en nog veel meer aan kleinere details. We hebben onze Kate text editor van een aantal extra kleurenschema's voorzien en bieden Plasma Simple Menu aan als alternatief voor de traditionele Kickoff Launcher. Met een brede waaier aan nieuwe 20.08 KDE-toepassingen en andere applicaties mikt Manjaro KDE op een veelzijdige en elegante omgeving voor al je dagelijkse noden.
+
+Met onze Gnome-editie, gebaseerd op de 3.36 serie, hebben we een aantal visuele vernieuwingen doorgevoerd aan een aantal applicaties en interfaces ─ in het bijzonder de login- en ontgrendel-interfaces.  GNOME shell extensies worden nu beheerd door een nieuwe Extensions-toepassing die het bijwerken, configureren en verwijderen of uitschakelen van extensies beheert.  Een "Niet storen"-knop werd toegevoegd aan de meldings-"pop-over". Wanneer deze wordt ingeschakeld worden meldingen verborgen tot de knop weer uitgeschakeld wordt. Standaard verandert onze eigen dynamische achtergrond het kleurenschema gedurende de dag. Ook onze Gnome Layout Switcher en GDM werden verbeterd. We hebben onze lijst met voorgeinstalleerde packages aangepast, `zsh` is de nieuwe default shell, en applicaties worden nu gesorteerd in mappen in een heldere app-lade.
+
+Pamac 9.5 is ook vernieuwd. In deze ronde hebben we de volgende zaken geoptimaliseerd: intern check-dep-algoritme voor slimmere prestaties, verbeterde ALPM-foutafhandeling, geoptimaliseerd intern zoekalgoritme voor betere regex support, en we hebben de database-prestaties verbeterd. We compileren en installeren AUR packages nu ook in één enkele cyclus.
+
+Manjaro Architect ondersteunt nu ook ZFS-installatie door de juiste kernel modules te integreren.
+
+Voor deze release werd Kernel 5.8 gebruikt, zodat de allerlaatste drivers aanwezig zijn. Onze interne tools werden ook nog verder verbeterd en gepolijst in vergelijking met de vorige release. 
+
+We hopen dat je van deze release geniet.  Laat ons vooral weten wat je van Mikah vindt!
