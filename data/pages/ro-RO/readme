@@ -1,47 +1,47 @@
-<big>Handling hardware</big>
+<big>Asistență hardware</big>
 
-Manjaro not only supports the use of multiple kernels (selectable from the advanced options at the boot screen), but also provides access to the very latest bleeding edge kernels as well. This can be done through the use of the Kernel module in Manjaro's graphical Settings Manager, or via the command line using the MHWD-kernel (Manjaro Hardware Detection) command.
+Manjaro nu numai că acceptă utilizarea mai multor kernel-uri (selectabile din opțiunile avansate de la ecranul de pornire), dar oferă și acces la cele mai recente kerneluri, chiar şi cele experimentale. Acest lucru poate fi realizat prin utilizarea modulului de Kernel în interfaţa grafică a Manager-ului de Setări Manjaro, sau prin linia de comandă folosind MHWD-kernel.
 
-These Manjaro tools will automatically update a newly installed kernel along with any modules currently in use with your existing kernel. For example, if you were to update from kernel 3.18 to 4.1, mhwd-kernel would automatically include the kernel 4.1 builds and all modules used with kernel 3.18. How about that!
+Aceste instrumente specifice Manjaro vor actualiza automat un kernel nou instalat, împreună cu orice module utilizate în prezent cu kernel-ul existent. De exemplu, dacă ar fi să actualizați de la kernel 3.18 la 4.1, mhwd-kernel ar include automat versiunile kernel 4.1 și toate modulele utilizate cu kernel 3.18. Foarte convenabil!
 
-You can configure your hardware through the Hardware Detection module in the Settings Manager or alternatively with the MHWD cli-application. With these tools you can install for example graphical drivers, free and proprietary.
+Puteți configura hardware-ul prin modulul de detectare hardware din Managerul de Setări sau, alternativ, cu aplicaţia mod linie de commandă MHWD. Cu aceste instrumente puteți instala, de exemplu, drivere grafice, gratuite și proprietare.
 
-<big>Getting help</big>
+<big>Resurse de ajutor</big>
 
-Although Manjaro is designed to work as much "out of the box" as possible, we don't claim it's perfect. There can be times when things go wrong, you might have questions and a desire to learn more or just want to personalise it to suit your tastes. This page provides details of some available resources to help you!
+Deși Manjaro este proiectat să funcționeze implicit la pornire, nu pretindem că este perfect. Pot exista momente când lucrurile merg prost, este posibil să aveți întrebări și dorința de a afla mai multe sau doar doriți să-l personalizați pentru a se potrivi gusturilor dumneavoastră. Această pagină oferă detalii despre unele resurse disponibile pentru ajutor!
 
-<b>Search the web</b>
+<b>Căutați pe web</b>
 
-Perhaps the first place to look for generic Linux help is by using your favourite search engine. Just include words like 'Linux', 'Manjaro' or 'Arch' in your search query.
+Folosind motorul de căutare preferat este probabil varianta preferată pentru găsirea unui ajutor generic relaţionat cu Linux. Totuşi să includeți cuvinte cheie precum "Linux", "Manjaro" sau "Arch" în interogarea dumneavoastră de căutare.
 
-As Manjaro is based on Arch Linux, guides and tips designed for Arch usually apply to Manjaro too.
+Manjaro are la bază structura, logica şi funcţionalitatea Arch Linux. Ghidurile și sfaturile concepute pentru Arch se aplică de obicei şi la Manjaro.
 
-<b>Look in the forums</b>
+<b>Căutați în forum</b>
 
-For specific help with Manjaro we have a dedicated online forum where you can search for topics, or create one yourself! This is probably the next best place to go for collaboration, discussion and assistance. Ask for help, post your thoughts, or outline some suggestions. Don't be shy!
+Pentru ajutor specific Manjaro avem un forum online dedicat unde puteți căuta subiecte sau puteți crea unul specific pentru problema întâmpinată! Forumul este cel mai bun loc virtual pentru colaborare, discuții și asistență tehnică. Cereți ajutor cu încredere, postați-vă opiniile sau faceţi sugestii.
 
-The Manjaro forum is divided into sub-forums for different topics and environments, please post your query in the appropriate place!
+Forumul Manjaro este împărțit în sub-forumuri pentru diferite subiecte și medii, vă rugăm să postați interogarea în categoria potrivită!
 
-<b>Join us on IRC (Internet Relay Chat)</b>
+<b>Cinectaţi-vă cu noi pe IRC (Internet Relay Chat)</b>
 
-Another option is to join us on IRC by joining our #manjaro channel on the chat.freenode.net servers.
+O altă opțiune este IRC prin conectarea la canalul nostru #manjaro pe serverele chat.freenode.net.
 
-<b>Sign up to a mailing list</b>
+<b>Înscrieți-vă la lista de discuții</b>
 
-Another way to get help is to email questions to Manjaro mailing list (you can also search the history for past discussions). Simply sign up to the list you prefer and follow the instructions. There is a list dedicated to several topics, just take a look!
+O altă modalitate de a obține ajutor este să trimiteți întrebări la lista de discuții Manjaro (puteți căuta și istoricul discuțiilor anterioare). Pur și simplu înscrieți-vă la una pe care o preferați și urmați instrucțiunile. Există o listă dedicată mai multor subiecte, vă invităm să o consultaţi!
 
-<big>Other resources</big>
+<big>Alte resurse</big>
 
-    - <a href="http://forum.manjarolinux.de">Manjaro Germany</a> - Official, support for our german community.
-    - <a href="https://aur.archlinux.org">AUR Repository</a> - Extra software not in the regular repositories, built from source.
-    - <a href="https://wiki.manjaro.org">Manjaro Wiki</a> - Official wiki for Manjaro.
-    - <a href="http://wiki.archlinux.org">Arch Wiki</a> - Official wiki for Arch.
-    - <a href="https://kiwiirc.com/nextclient/irc.freenode.net/?nick=manjaro-web%7C?#manjaro">IRC Chat</a> - Live talk and help by users for users.
+- <a href="http://forum.manjarolinux.de">Manjaro Germania</a> - Oficial, sprijin pentru comunitatea noastră germană.
+- <a href="https://aur.archlinux.org">AUR Repository</a> - Software-ul suplimentar, neoficial construit de la sursă.
+- <a href="https://wiki.manjaro.org">Manjaro Wiki</a> - wiki oficial Manjaro.
+- <a href="http://wiki.archlinux.org">Arch Wiki</a> - wiki oficial Arch.
+- <a href="https://kiwiirc.com/nextclient/irc.freenode.net/?nick=manjaro-web%7C?#manjaro">IRC Chat</a> - Discuție live și ajutor de la utilizatori pentru alţi utilizatori.
 
-<big>Suggestions</big>
+<big>Sugestii</big>
 
-Got a suggestion on how we can make Manjaro better? Found something you want included, or want to help out? Please let us know, by posting your suggestion on the forum or drop by on IRC.
+Sugestiile cu privire la modul în care putem face Manjaro mai bun şi mai stabil, ceva ce merită inclus în materie de software, sau metode de ajutor mai eficiente sunt toate binevenite pe forum sau pe canalul IRC.
 
-Thank you!
+Mulţumim!
 
-We hope you enjoy using Manjaro!
+Sperăm să utilizaţi Manjaro cu plăcere!

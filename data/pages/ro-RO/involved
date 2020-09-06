@@ -1,37 +1,37 @@
-<big>Thanks for your support</big>
+<big>Mulţumim pentru suportul acordat</big>
 
-Manjaro Linux receives a great deal of support from its community of users and we would like to thank each and every contributor for participating. We are growing at a steady pace and our distribution is getting better every day thanks to you.
+Manjaro Linux se bazează pe sprijinul deosebit venit din partea comunității sale de utilizatori și dorim să mulțumim fiecăruia pentru contribuţie. Suntem în creștere într-un ritm constant și distribuția noastră se îmbunătățește în fiecare zi datorită vouă.
 
-It is very easy to make a difference. Depending on your skill set, your availability you can help Manjaro in one or more of the following ways:
+Este foarte ușor să demarcaţi ce contează. În funcție de setul de calificări, disponibilitatea dumneavoastră, puteţi ajuta Manjaro în unul sau mai multe dintre următoarele moduri:
 
-<big>Support and Promotion</big>
+<big>Suport și promovare</big>
 
-<b>Spreading the word</b>
+<b>Popularizarea</b>
 
-If you like Manjaro, let people know. Write a review and publish it on distrowatch.com. Talk about it with your friends and the people around you.
+Dacă vă place Manjaro, faceţi-l cunoscut. Scrieţi un comentariu și publicaţi-l pe distrowatch.com. Vorbiţi despre asta cu prietenii și oamenii din jur.
 
-<b>Joining the Community</b>
+<b>Aderarea la Comunitate</b>
 
-Manjaro isn't just an operating system, it's also a dynamic community of people who enjoy, gather, and interact with a free and open project. Whether it's by helping others sort through issues, by making them feel welcome, or simply by meeting and talking to other Manjaro users, we recommend you join the community and participate in making Manjaro better.
+Manjaro nu este doar un sistem de operare, ci și o comunitate dinamică de oameni care se bucură și interacționează în discuţii cu şi despre un proiect gratuit și deschis. Fie că este vorba de ajutorul acordat altora prin rezolvarea unor probleme tehnice, făcându-i să se simtă bineveniți, sau pur și simplu doar participarea la discuţii cu alţi utilizatori Manjaro, vă invităm să vă alăturați comunității și să luaţi parte la îmbunătăţirea experienţei Manjaro.
 
-<b>Helping others</b>
+<b>Ajutarea altora</b>
 
-If you have some spare time and you're willing to help other users with technical problems, you should seriously consider reading the forums and/or joining the IRC channel and helping other Manjaro users solve the problems you know how to fix.
+Dacă aveţi timp liber şi dispoziţie să ajutaţi alţi utilizatori cu probleme tehnice, e imperativă cunoaşterea modului de funcţionare a forumului, clasificarea categoriilor şi conţinutul anunţurilor. Canalul IRC poate la fel de bine să fie utilizat pentru suport tehnic.
 
-<big>Project contributions</big>
+<big>Contribuţii la proiect</big>
 
-<b>Bug reports</b>
+<b>Rapoarte de erori</b>
 
-If you've noticed something that doesn't work properly while using Manjaro, let us know. The problem you have discovered is likely to affect others as well; The sooner we know about it, the sooner we're able to fix it.
+Dacă ați observat ceva care nu funcționează corect în timp ce utilizați Manjaro, anunțați-ne. Problema descoperită poate afecta și alte sisteme; cu cât știm mai repede şi mai multe detalii despre eroare, cu atât o putem rezolva în timp util şi mai eficient.
 
-<b>New ideas</b>
+<b>Idei noi</b>
 
-The vast majority of improvements included in each release come from the community. If there's something that you think is missing or that could be done better, please tell us. Whether it's the inclusion of a missing hardware driver, or a software application that should be part of a stock installation, or if you have any other ideas on how to make Manjaro better, we're always interested in hearing them.
+Marea majoritate a îmbunătățirilor incluse în fiecare versiune provin din contribuţiile comunităţii. Dacă există ceva care credeți că lipsește sau care ar putea fi făcut mai bine, vă rugăm să ne spuneți. Fie că este vorba de includerea unui driver hardware lipsă sau a unei aplicații software care ar trebui să facă parte dintr-o instalație implicită sau dacă aveți alte idei despre cum experienţa cu Manjaro se poate îmbunătăţi, suntem mereu interesați să le auzim.
 
-<b>Artwork</b>
+<b>Lucrări artistice</b>
 
-If you are talented in graphic design and willing to contribute to the project, please send us your creations and artwork. Whether it's a simple wallpaper, an icon set, a splash screen, or even a new logo, we're always interested to hear from you about new artwork.
+Dacă sunteți talentați în design grafic și doriți să contribuiți la proiect, vă rugăm să ne trimiteți creațiile și lucrările voastre. Fie că este vorba o carpetă desktop simplă, un set de pictograme, un ecran de pornire, sau chiar un nou logo, suntem mereu interesați să le vedem.
 
-<b>Code</b>
+<b>Cod şi programare</b>
 
-Most of our development is done in QT, C++, Python, HTML5/CSS and BASH. We also use Git for version control and PKGBUILDs for packaging. If you're comfortable with these technologies, don't hesitate to have a look at the code. If you think you can improve our applications or write new ones don't hesitate to suggest patches or to fork our git repositories.
+Cea mai mare parte a dezvoltării noastre se face în QT, C ++, Python, HTML5 / CSS și BASH. De asemenea, folosim Git pentru controlul versiunilor și PKGBUILDs pentru împachetare. Dacă sunteți versatili în aceste tehnologii, nu ezitați să aruncați o privire la codul nostru. Dacă credeți că puteți îmbunătăți aplicațiile sau puteți scrie altele noi, nu ezitați să sugerați patch-uri sau să importaţi proiectele din depozitele git.
