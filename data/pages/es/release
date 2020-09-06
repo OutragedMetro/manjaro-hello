@@ -1,0 +1,18 @@
+<big>Manjaro 20.1</big>
+
+Estamos muy contentos de anunciar el lanzamiento de una nueva versión estable de Manjaro Linux, llamada Mikah.
+
+La edición Xfce continúa siendo nuestro buque insignia, habiendo recibido toda la atención que merece. Muy pocos pueden alardear de ofrecer una experiencia tán pulida, integrada y actualizada de Xfce. Con este lanzamiento ofrecemos la versión 4.14 de Xfce y nos hemos concentrado principalmente en pulir la experiencia de usuario con el escritorio y el gestor de ventanas. Además, hemos cambiado el tema por defecto a uno nuevo, llamado Matcha. La nueva funcionalidad de perfiles en la configuración de la pantalla te permitirá almacenar varios perfiles de tus distintas disposiciones de pantallas. Hemos implementado además la auto activación de estos perfiles cuando se conecten nuevas pantallas. 
+
+Nuestra edición KDE ofrece el versátil, maduro y lleno de funcionalidades escritorio de Plasma en su versión 5.19. En este lanzamiento viene con un aspecto único, que fue completamente rediseñado durante la primavera de 2020. El conjunto de temas Breath2 incluye versiones clara y oscura, una pantalla de bienvenida animada, perfiles de Konsole, temas de Yakuake y muchos más detalles. Hemos rematado el editor de texto Kate con esquemas de colores adicionales además de ofrecer el Menú Simple de Plasma como alternativa al tradicional lanzador Kickoff. Con una gran selección de los últimos programas de KDE en su versión 20.08 además de otros programas, Manjaro-KDE pretende ser un entorno versátil y ligero, listo para todas las necesidades de tu día a día. 
+
+Con nuestra edición Gnome, basada en la versión 3.36 de la serie, incluimos varias actualizaciones visuales en diversas aplicaciones e interfaces, siendo dignos de mención las pantallas de inicio de sesión y de bloqueo. Las extensiones de GNOME Shell pueden ser ahora administradas mediante una nueva extensión con la que se pueden actualizar, configurar, eliminar o deshabilitar estas extensiones. Un nuevo botón de No Molestar ha sido añadido a la ventana de notificaciones. Al pulsarlo, todas las notificaciones se esconderán hasta que el botón se vuelva a pulsar de nuevo. Por defecto, nuestro fondo de pantalla dinámico cambiará el color del tema a lo largo del día. Además, hemos actualizado GDM y mejorado un montón nuestro Gnome-Layout-Switcher, que permite cambiar fácilmente la disposición de los elementos del escritorio. Hemos actualizado nuestra lista de paquetes preinstalados, zsh es la nueva shell por defecto y las aplicaciones están ahora ordenadas en carpetas en la nueva app de menú de inicio.
+
+La serie 9.5 de Pamac ha recibido algunas actualizaciones. Hemos optimizado la comprobación interna de dependencias, que ahora tiene un mejor rendimiento, hemos mejorado el manejo de errores de alpm, optimizado el algoritmo de búsqueda para mejor soporte de regex e implementado mejoras en el rendimiento de la base de datos. Además, ahora es posible construir e instalar tantos paquetes de AUR como sea posible en una sola ejecución. 
+
+Manjaro Architect tiene ahora soporte de instalación ZFS mediante el añadido de los módulos necesarios al Kernel.
+
+El Kernel 5.8 es el usado en este lanzamiento, al igual que los drivers disponibles a fecha del mismo. En comparación con nuestro anterior lanzamiento, todas nuestras herramientas han sido mejoradas y pulidas. 
+
+We hope you enjoy this release and let us know what you think of Mikah.
+Esperamos que disfrutéis de este nuevo lanzamiento y que nos hagáis saber nuestras opiniones del mismo.
