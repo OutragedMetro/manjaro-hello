@@ -1,0 +1,17 @@
+<big>Manjaro 20.1</big>
+
+Z radością publikujemy kolejne stabilne wydanie Manjaro Linux o nazwie Mikah.
+
+Naszym flagowym wydaniem wciąż jest Xfce, które cieszy się taką uwagą, na jaką zasługuje. Tylko nieliczni mogą twierdzić, że oferują tak dopracowane, zintegrowane i najnowocześniejsze doświadczenia z Xfce. W tym wydaniu dostarczamy Xfce 4.14 i skupiliśmy się głównie na dopracowaniu wrażeń użytkownika z pulpitu i menedżera okien. Dodatkowo przeszliśmy na nowy motyw o nazwie Matcha. Nowa funkcja Display-Profiles pozwala na przechowywanie jednego lub więcej profili dla preferowanej konfiguracji wyświetlania. Zaimplementowaliśmy także automatyczne stosowanie profili po podłączeniu nowych ekranów.
+
+Nasza edycja KDE dostarcza potężne, dojrzałe i bogate w funkcje środowisko Plasma 5.19 o unikalnym wyglądzie i działaniu, które całkowicie przeprojektowaliśmy wiosną 2020. Pełen zestaw motywów Breath2 obejmuje jasną i ciemną wersję, animowany ekran powitalny, profile Konsoli, skórki Yakuake i wiele innych drobiazgów. Dodaliśmy do edytora tekstu Kate kilka schematów kolorów oraz oferujemy aplet Simplemenu jako alternatywę dla tradycyjnego Kickoff-Launchera. Manjaro KDE zawiera szeroki wybór aplikacji KDE 20.8 oraz innych programów, dzięki czemu jest wszechstronnym i eleganckim środowiskiem gotowym na wszystkie Twoje codzienne potrzeby.
+
+W wydaniu Gnome opartym na serii 3.36 odświeżyliśmy liczne aplikacje i ekrany, szczególnie warte uwagi są ekrany logowania i odblokowywania. Rozszerzeniami Gnome zarządza się teraz za pomocą nowej aplikacji Rozszerzenia, która obsługuje aktualizowanie, konfigurowanie i usuwanie lub wyłączanie rozszerzeń. Do okienka powiadomień dodano przycisk "Nie przeszkadzać". Po jego aktywowaniu powiadomienia są ukryte do momentu wyłączenia przycisku. Domyślnie nasza tapeta zmienia swój motyw kolorystyczny w ciągu dnia. Dodatkowo zaktualizowaliśmy GDM i znacznie ulepszyliśmy przełącznik układów Gnome. Zaktualizowaliśmy listę preinstalowanych pakietów, powłoka zsh jest teraz domyślną powłoką terminala, a aplikacje są teraz posortowane w foldery w menu.
+
+Pamac w wydaniu 9.5 otrzymał kilka aktualizacji. Tym razem zoptymalizowaliśmy wewnętrzny algorytm sprawdzania depozytów w celu uzyskania lepszej wydajności, poprawiliśmy obsługę błędów alpm, zoptymalizowaliśmy algorytm wyszukiwania do lepszej obsługi wyrażeń regularnych i zwiększyliśmy wydajność bazy danych. Teraz w jednym przebiegu budujemy i instalujemy jak najwięcej pakietów AUR.
+ 
+Manjaro Architect obsługuje teraz instalację ZFS poprzez dostarczenie potrzebnych modułów kernela.
+
+W tym wydaniu dostarczamy kernel 5.8 oraz najnowsze dostępne w dniu wydania sterowniki. Nasze narzędzia w porównaniu do poprzedniego wydania zostały ulepszone i dopracowane.
+
+Mamy nadzieję, że spodoba Ci się to wydanie. Daj nam znać co myślisz o Mikah.
