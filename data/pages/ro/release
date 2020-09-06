@@ -1,0 +1,17 @@
+<big>Manjaro 20.1</big>
+
+Suntem bucuroși să lansăm o altă versiune stabilă a distribuţiei Manjaro Linux, numită Mikah.
+
+Ediția Xfce rămâne emblema noastră și a primit atenția pe care o merită. Doar câteva distribuţii pot pretinde că oferă o astfel de experiență Xfce perfecţionată, bine integrată și înaltă calitate. Cu această versiune livrăm Xfce 4.14 și ne-am concentrat în mare parte pe cizelarea experienței utilizatorului cu managerul de desktop și ferestre. De asemenea, am trecut la o nouă temă numită Matcha. O nouă caracteristică la profiluri de Display vă permite să stocați unul sau mai multe profiluri pentru configurația de afișare preferată. De asemenea, am implementat aplicarea automată a profilurilor atunci când sunt conectate noi Monitoare.
+
+Ediția noastră KDE oferă varianta Plasma desktop 5.19 puternic, matur și bogat în funcții, cu un aspect unic, pe care l-am reproiectat complet în primăvara anului 2020. Setul complet de teme Breath2 include versiuni de culori luminoase și mai întunecate, fundal de pornire animat, profile de culoare pentru Konsole, teme decorative pentru Yakuake și multe alte mici detalii. Am pregătit editorul de text Kate cu câteva scheme de culori suplimentare și oferim Plasma-Simplemenu ca o alternativă la tradiționalul Kickoff-Launcher. Cu o selecție largă de cele mai recente aplicaţii-KDE 20.08 și alte aplicații Manjaro-KDE își propune să fie potrivit și elegant, gata pentru toate nevoile de zi cu zi.
+
+Cu ediția noastră Gnome bazată pe seria 3.36, includem renovări vizuale pentru o serie de aplicații și interfețe, în special demn de remarcat fiind interfețele de conectare și deblocare. Extensiile shell GNOME sunt acum gestionate utilizând o nouă aplicație, Extensii care gestionează actualizarea, configurarea și eliminarea sau dezactivarea extensiilor. Un buton Nu deranjați a fost adăugat la modulul de notificări. Când este activat, notificările sunt ascunse până când butonul este dezactivat. În mod implicit noua carpetă de desktop dinamic își schimbă tema de culoare pe tot parcursul zilei. În plus, am actualizat GDM și îmbunătățit mult versiunea noastră de Gnome-Layout-Switcher. Am actualizat lista de pachete preinstalate, zsh este noul shell implicit și aplicațiile sunt acum sortate în dosare într-un sertar curat de aplicații.
+
+Pamac 9.5 a fost actualizat. În aceast interval am optimizat algoritmul de verificare internă pentru o performanță mai inteligentă, am îmbunătățit manipularea erorilor alpm, algoritmul de căutare internă optimizat pentru un suport mai bun regex și am adus îmbunătățiri ale performanței bazei de date. De asemenea, acum construim pachete AUR și instalăm cât mai mult posibil într-o singură comandă.
+
+Manjaro Arhitect suportă acum instalarea ZFS prin furnizarea modulelor de kernel necesare.
+
+Utilizăm Kernel 5.8 implicit pentru această versiune, precum şi cele mai recente drivere disponibile până în prezent. Comparativ cu ultima versiune media de instalare, instrumentele noastre au fost îmbunătățite și optimizate.
+
+Sperăm să vă bucurați de această versiune și aşteptăm părerile voastre despre Mikah.
