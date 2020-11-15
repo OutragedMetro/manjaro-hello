@@ -284,7 +284,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="spacing">5</property>
                     <child>
                       <object class="GtkEventBox">
-                        <property name="name">google+</property>
+                        <property name="name">telegram</property>
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
