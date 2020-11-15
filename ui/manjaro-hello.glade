@@ -204,8 +204,8 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
             </child>
             <child>
               <object class="GtkButton" id="discover">
-                <property name="label">Discover Manjaro Software</property>
-                <property name="name">dicover</property>
+                <property name="label" translatable="yes">Discover Manjaro Software</property>
+                <property name="name">discover</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="receives-default">True</property>
@@ -284,9 +284,10 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="spacing">5</property>
                     <child>
                       <object class="GtkEventBox">
-                        <property name="name">reddit</property>
+                        <property name="name">google+</property>
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
                         <child>
                           <object class="GtkImage" id="telegram">
                             <property name="visible">True</property>
@@ -360,9 +361,6 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                         <property name="fill">True</property>
                         <property name="position">3</property>
                       </packing>
-                    </child>
-                    <child>
-                      <placeholder/>
                     </child>
                   </object>
                   <packing>
