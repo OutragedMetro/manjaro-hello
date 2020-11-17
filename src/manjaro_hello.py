@@ -219,7 +219,7 @@ class Hello(Gtk.Window):
             "label": {
                 "autostartlabel",
                 "development",
-                "chat",
+                "discover",
                 "donate",
                 "firstcategory",
                 "forum",
@@ -239,7 +239,7 @@ class Hello(Gtk.Window):
                 "about",
                 "home",
                 "development",
-                "chat",
+                "discover",
                 "donate",
                 "forum",
                 "mailling",

@@ -11,11 +11,11 @@
   "ui_path": "/usr/share/manjaro-hello/ui/manjaro-hello.glade",
   "urls": {
     "development": "https://gitlab.manjaro.org",
-    "chat": "https://kiwiirc.com/client/irc.freenode.net/?nick=manjaro-web|?#manjaro",
+    "discover": "https://discover.manjaro.org/",
     "donate": "https://manjaro.org/donate",
     "facebook": "https://www.facebook.com/ManjaroLinux",
     "forum": "https://forum.manjaro.org",
-    "google+": "https://plus.google.com/118244873957924966264",
+    "telegram": "https://t.me/manjaro_official",
     "mailling": "https://lists.manjaro.org/cgi-bin/mailman/listinfo",
     "reddit": "https://www.reddit.com/r/ManjaroLinux",
     "twitter": "https://twitter.com/ManjaroLinux",
