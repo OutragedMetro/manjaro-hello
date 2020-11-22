@@ -1,17 +1,21 @@
-<big>Manjaro 20.1</big>
+<big>Manjaro 20.2</big>
 
-我们很高兴发布新的Manjaro Linux 稳定版本， 名为 Mikah 。
+We are happy to publish another stable release of Manjaro Linux, named Nibia.
 
-Xfce 版依然是我们的旗舰产品，并得到了应有的关注。只有少数发行版可以声称提供这种美观，集成和领先的Xfce体验。在这个版本中，我们发布 Xfce 4.14，主要侧重于使用桌面和窗口管理器来完善用户体验。此外，我们切换到了一个名为Matcha的新主题。新的显示配置文件有一个新功能，它允许你为你的首选显示器配置存储一个或多个配置文件。当连接新显示器时，我们还实现了自动应用配置文件。
+<big>Gnome edition</big> is the epicenter of new exciting features. It received a major overhaul, possibly the biggest update thusfar.
 
-我们的 KDE 版提供强大、成熟且功能丰富的 Plasma 5.19 桌面环境，具有独特的外观和感觉，我们在 2020 年春季完全重新设计了新的Breath2主题。Breath2主题包括亮和暗两种版本，启动动画，Konsole配置文件，Yakuake和更多的小细节。我们已经用一些额外的配色方案打磨文本编辑器Kate，并提供Plasma-Simplemenu替代传统的启动器。Manjaro-KDE 拥有一系列最新的20.08版本的kde软件 和其他应用，旨在成为一个多功能、优雅的环境，满足您的所有日常需求。
+Gnome 3.38 provides performance enhancements, significantly improved application grid, parental controls, excellent welcome tour as well as many other features. The new OEM style installation makes the installation process extremely simple, and Gnome-Initial-Setup lets you easily install Manjaro for other people.
 
-我们的 Gnome 版本基于 3.36 系列，在许多应用程序和界面的观感上焕然一新，特别是登录和解锁界面。GNOME现在使用新的扩展应用程序管理扩展，该应用具有处理更新、配置、删除、禁用扩展的功能。"请勿打扰"按钮已添加到通知栏的弹出窗口中。启用后，通知将隐藏，除非按钮关闭请勿打扰选项。默认情况下，我们的动态壁纸全天更改其颜色主题。此外，我们更新了GDM，并改进了我们的Gnome-Layout-Switcher。我们更新了预安装的软件包列表，zsh 是新的默认shell，应用程序现在被放到一个应用程序抽屉中。
+Manjaro’s Application-Utility got also many improvements, letting easily choose your favorite browsers, office suites and password managers. We also included two excellent forms of automatic window tiling: the intuitive Pop-shell and the touch friendly Material-shell. These can be enabled in the Gnome-Layout-Switcher.
 
-Pamac 9.5 系列收到了一些更新。在这一轮中，我们优化了内部检查的 dep 算法，以实现更智能的性能，增强了 alpm 错误处理，优化了内部搜索算法，以便更好地支持正则表达式并改进了数据库性能。现在，我们还构建 AUR 包，并在一次运行中尽可能多地安装它们。
+Keybindings have also been improved to manage virtual desktops more efficiently. Automatic dark mode has gained more granular controls and also let’s you automatically change the theme of qt applications as well. Gnome edition also now comes with boot splash and graphical password dialogs for encrypted systems. We also trimmed the desktop so that it should now use approximately 40% less ram than before. We now also default to using Wayland on non-Nvidia hardware.
 
-Manjaro 架构师通过提供所需的内核模块来支持在ZFS文件系统下安装。
+Our <big>KDE edition</big> provides the powerful, mature and feature-rich Plasma 5.20 desktop environment with a unique look-and-feel. The new release features Wayland improvements, grid-like system tray, new power saving options, improved settings-center, touch support in dolphin and much more. With a wide selection of latest KDE-Apps 20.08 and other applications Manjaro-KDE aims to be a versatile and elegant environment ready for all your everyday needs.
 
-这次升级的内核为 5.8 ，包含了迄今为止最新可用的驱动程序。与上次安装介质发布相比，我们的工具得到了改进和打磨。
+With our <big>XFCE edition</big>, only a few can claim to offer such a polished, integrated and leading-edge Xfce experience. With this release we ship Xfce 4.14. The stable Xfce pairs well with the cutting edge rolling release that is Manjaro, offering reliable performance with no surprises.
 
-我们希望您喜欢这个版本， 同时让我们知道你对 Mikah 的想法。
+Kernel 5.9 is used for this release, such as the latest drivers available to date. With 5.4 LTS-Kernel minimal-ISOs we offer additional support for older hardware.
+
+Last, but not least, our installer Calamares also received many improvements. Among other things, it now supports encrypted systems without encrypted /boot partition. This enables graphical password dialogs, using non-us keymaps for inputting passwords and up to 1 minute shorter boot times compared to full disk encryption. Automatic partitioning still uses full disk encryption by default.
+
+We hope you enjoy this release and let us know what you think of Nibia.

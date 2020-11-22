@@ -1,17 +1,21 @@
-<big>Manjaro 20.1</big>
+<big>Manjaro 20.2</big>
 
-Z radością publikujemy kolejne stabilne wydanie Manjaro Linux o nazwie Mikah.
+We are happy to publish another stable release of Manjaro Linux, named Nibia.
 
-Naszym flagowym wydaniem wciąż jest Xfce, które cieszy się taką uwagą, na jaką zasługuje. Tylko nieliczni mogą twierdzić, że oferują tak dopracowane, zintegrowane i najnowocześniejsze doświadczenia z Xfce. W tym wydaniu dostarczamy Xfce 4.14 i skupiliśmy się głównie na dopracowaniu wrażeń użytkownika z pulpitu i menedżera okien. Dodatkowo przeszliśmy na nowy motyw o nazwie Matcha. Nowa funkcja Display-Profiles pozwala na przechowywanie jednego lub więcej profili dla preferowanej konfiguracji wyświetlania. Zaimplementowaliśmy także automatyczne stosowanie profili po podłączeniu nowych ekranów.
+<big>Gnome edition</big> is the epicenter of new exciting features. It received a major overhaul, possibly the biggest update thusfar.
 
-Nasza edycja KDE dostarcza potężne, dojrzałe i bogate w funkcje środowisko Plasma 5.19 o unikalnym wyglądzie i działaniu, które całkowicie przeprojektowaliśmy wiosną 2020. Pełen zestaw motywów Breath2 obejmuje jasną i ciemną wersję, animowany ekran powitalny, profile Konsoli, skórki Yakuake i wiele innych drobiazgów. Dodaliśmy do edytora tekstu Kate kilka schematów kolorów oraz oferujemy aplet Simplemenu jako alternatywę dla tradycyjnego Kickoff-Launchera. Manjaro KDE zawiera szeroki wybór aplikacji KDE 20.8 oraz innych programów, dzięki czemu jest wszechstronnym i eleganckim środowiskiem gotowym na wszystkie Twoje codzienne potrzeby.
+Gnome 3.38 provides performance enhancements, significantly improved application grid, parental controls, excellent welcome tour as well as many other features. The new OEM style installation makes the installation process extremely simple, and Gnome-Initial-Setup lets you easily install Manjaro for other people.
 
-W wydaniu Gnome opartym na serii 3.36 odświeżyliśmy liczne aplikacje i ekrany, szczególnie warte uwagi są ekrany logowania i odblokowywania. Rozszerzeniami Gnome zarządza się teraz za pomocą nowej aplikacji Rozszerzenia, która obsługuje aktualizowanie, konfigurowanie i usuwanie lub wyłączanie rozszerzeń. Do okienka powiadomień dodano przycisk "Nie przeszkadzać". Po jego aktywowaniu powiadomienia są ukryte do momentu wyłączenia przycisku. Domyślnie nasza tapeta zmienia swój motyw kolorystyczny w ciągu dnia. Dodatkowo zaktualizowaliśmy GDM i znacznie ulepszyliśmy przełącznik układów Gnome. Zaktualizowaliśmy listę preinstalowanych pakietów, powłoka zsh jest teraz domyślną powłoką terminala, a aplikacje są teraz posortowane w foldery w menu.
+Manjaro’s Application-Utility got also many improvements, letting easily choose your favorite browsers, office suites and password managers. We also included two excellent forms of automatic window tiling: the intuitive Pop-shell and the touch friendly Material-shell. These can be enabled in the Gnome-Layout-Switcher.
 
-Pamac w wydaniu 9.5 otrzymał kilka aktualizacji. Tym razem zoptymalizowaliśmy wewnętrzny algorytm sprawdzania depozytów w celu uzyskania lepszej wydajności, poprawiliśmy obsługę błędów alpm, zoptymalizowaliśmy algorytm wyszukiwania do lepszej obsługi wyrażeń regularnych i zwiększyliśmy wydajność bazy danych. Teraz w jednym przebiegu budujemy i instalujemy jak najwięcej pakietów AUR.
- 
-Manjaro Architect obsługuje teraz instalację ZFS poprzez dostarczenie potrzebnych modułów kernela.
+Keybindings have also been improved to manage virtual desktops more efficiently. Automatic dark mode has gained more granular controls and also let’s you automatically change the theme of qt applications as well. Gnome edition also now comes with boot splash and graphical password dialogs for encrypted systems. We also trimmed the desktop so that it should now use approximately 40% less ram than before. We now also default to using Wayland on non-Nvidia hardware.
 
-W tym wydaniu dostarczamy kernel 5.8 oraz najnowsze dostępne w dniu wydania sterowniki. Nasze narzędzia w porównaniu do poprzedniego wydania zostały ulepszone i dopracowane.
+Our <big>KDE edition</big> provides the powerful, mature and feature-rich Plasma 5.20 desktop environment with a unique look-and-feel. The new release features Wayland improvements, grid-like system tray, new power saving options, improved settings-center, touch support in dolphin and much more. With a wide selection of latest KDE-Apps 20.08 and other applications Manjaro-KDE aims to be a versatile and elegant environment ready for all your everyday needs.
 
-Mamy nadzieję, że spodoba Ci się to wydanie. Daj nam znać co myślisz o Mikah.
+With our <big>XFCE edition</big>, only a few can claim to offer such a polished, integrated and leading-edge Xfce experience. With this release we ship Xfce 4.14. The stable Xfce pairs well with the cutting edge rolling release that is Manjaro, offering reliable performance with no surprises.
+
+Kernel 5.9 is used for this release, such as the latest drivers available to date. With 5.4 LTS-Kernel minimal-ISOs we offer additional support for older hardware.
+
+Last, but not least, our installer Calamares also received many improvements. Among other things, it now supports encrypted systems without encrypted /boot partition. This enables graphical password dialogs, using non-us keymaps for inputting passwords and up to 1 minute shorter boot times compared to full disk encryption. Automatic partitioning still uses full disk encryption by default.
+
+We hope you enjoy this release and let us know what you think of Nibia.
