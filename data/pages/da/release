@@ -1,21 +1,21 @@
 <big>Manjaro 20.2</big>
 
-We are happy to publish another stable release of Manjaro Linux, named Nibia.
+Vi er glade for at kunne frigive den seneste Manjaro Linux, med navnet Nibia.
 
-<big>Gnome edition</big> is the epicenter of new exciting features. It received a major overhaul, possibly the biggest update thusfar.
+<big>Gnome edition</big> er centrum for nye spændende funktioner. Udgaven har gennemgået omfattende fornyelse, muligvis den mest omfattende hidtil.
 
-Gnome 3.38 provides performance enhancements, significantly improved application grid, parental controls, excellent welcome tour as well as many other features. The new OEM style installation makes the installation process extremely simple, and Gnome-Initial-Setup lets you easily install Manjaro for other people.
+Gnome 3.38 leverer i sig selv forbedringer, med en synligt forbedret gitter oversigt, forældre kontrol, glimrende førstegangs rundvising såvel så vel som andre funktioner. Den nye OEM agtige installationsprocess gøre det til en leg, og Gnomes førstegangsinstallation gør det let at installere Manjaro for andre end dig selv.
 
-Manjaro’s Application-Utility got also many improvements, letting easily choose your favorite browsers, office suites and password managers. We also included two excellent forms of automatic window tiling: the intuitive Pop-shell and the touch friendly Material-shell. These can be enabled in the Gnome-Layout-Switcher.
+Manjaro’s Application-Utility er også forbedret og gør det legende let at vælge dine favorit programmer i form af Internet browser, office programmer og password opbevaring. Vi har også fundet two fantastiske programmer for holde program vinduer side om side: den intuitive Pop-shell og den touch venlige Material-shell. Disse kan aktiveres fro Gnome-Layout-Switcher.
 
-Keybindings have also been improved to manage virtual desktops more efficiently. Automatic dark mode has gained more granular controls and also let’s you automatically change the theme of qt applications as well. Gnome edition also now comes with boot splash and graphical password dialogs for encrypted systems. We also trimmed the desktop so that it should now use approximately 40% less ram than before. We now also default to using Wayland on non-Nvidia hardware.
+Tastatur genveje er forbedret så de håndterer virtuelle skriveborde mere effektivt. Et automatisk skift til et mørkere tema er forbedret med større justerinsmuligheder som også temaet for Qt apps efter samme recept. Gnome edition starter med boot splash og en grafisk password dialog for krypterede systemer. Vi har desuden trimmet skrivebordet på måder der skulle betyde op mod 40% lavere hukommelsesforbrug. Desuden bruges som standard Wayland men kun hvis systemet ikke bruger Nvidia hardware.
 
-Our <big>KDE edition</big> provides the powerful, mature and feature-rich Plasma 5.20 desktop environment with a unique look-and-feel. The new release features Wayland improvements, grid-like system tray, new power saving options, improved settings-center, touch support in dolphin and much more. With a wide selection of latest KDE-Apps 20.08 and other applications Manjaro-KDE aims to be a versatile and elegant environment ready for all your everyday needs.
+Vores <big>KDE edition</big> har nu det gennemarbejde Plasma 5.20 skrivebords miljø med et unikt layout. Denne udgave byder på forbedring for Wayland, et gitterlayour i system bakken, nye strømstyringsegenskaber, en forbedret oversigt over indstillinger, touch support i Dolphin og meget æmere. Med det brede udvalg af de seneste KDE-Apps 20.08 og andre apps Manjaro-KDE har som mål at være det mest alsidige og elegante miljø - klar til daglig brug.
 
-With our <big>XFCE edition</big>, only a few can claim to offer such a polished, integrated and leading-edge Xfce experience. With this release we ship Xfce 4.14. The stable Xfce pairs well with the cutting edge rolling release that is Manjaro, offering reliable performance with no surprises.
+Endelig vores <big>XFCE edition</big>, hvor kun få kan præsentere en gennemarbejdet, integreret og up-to-date Xfce oplevelse. Med denne udgave bruges Xfce 4.14. Det stabile Xfce miljø går godt i spænd med et rolling release som Manjaro og tilbyder pålidelig ydelse uden overraskelser.
 
-Kernel 5.9 is used for this release, such as the latest drivers available to date. With 5.4 LTS-Kernel minimal-ISOs we offer additional support for older hardware.
+Linux kernel 5.9 er grundlaget for denne udgave med de nyeste opdateringer for drivere. Med Linux 5.4 LTS-Kerne og minimal-ISOs tilbyder vi support for ældre hardware.
 
-Last, but not least, our installer Calamares also received many improvements. Among other things, it now supports encrypted systems without encrypted /boot partition. This enables graphical password dialogs, using non-us keymaps for inputting passwords and up to 1 minute shorter boot times compared to full disk encryption. Automatic partitioning still uses full disk encryption by default.
+Sidst, men ikke mindst, er installations programmet Calamares også blevet opdateret. Bland forbedringer kan nævnes support for kyrpterede systemer uden krypteret /boot partitions. Dette gør det muligt at bruge en grafisk dialog for oplåsning, anvendelse af lokale tastatur layouts og op hurtigere opstart - op til 1 minut kortere - sammenlignet med fuld disk kryptering. Automatisk diskopsætning vil stadig bruge fuld disk kryptering som standard.
 
-We hope you enjoy this release and let us know what you think of Nibia.
+Vi håber du vil nyde denne udgivelse og lade os vide hvad du tænker om Nibia.
