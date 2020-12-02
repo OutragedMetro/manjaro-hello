@@ -312,7 +312,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
             </child>
             <child>
               <object class="GtkButton" id="mailling">
-                <property name="label" translatable="yes">Mailling lists</property>
+                <property name="label" translatable="yes">Mailing lists</property>
                 <property name="name">mailling</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
