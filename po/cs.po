@@ -76,7 +76,7 @@ msgid "Chat room"
 msgstr "Diskuzní místnosti"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "Emailové konference a noviny"
 
 #: ui/manjaro-hello.glade:240

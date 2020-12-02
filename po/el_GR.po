@@ -77,7 +77,7 @@ msgid "Chat room"
 msgstr "Δικτυακό δωμάτιο"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "Λίστες αλληλογραφίας"
 
 #: ui/manjaro-hello.glade:240

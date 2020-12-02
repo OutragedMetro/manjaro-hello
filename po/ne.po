@@ -73,7 +73,7 @@ msgid "Chat room"
 msgstr "कुराकानी कक्ष"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "मेलिङ सूचीहरू"
 
 #: ui/manjaro-hello.glade:240

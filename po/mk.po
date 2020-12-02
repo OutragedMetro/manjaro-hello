@@ -76,7 +76,7 @@ msgid "Chat room"
 msgstr "Чат соба"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "Листи за допишување"
 
 #: ui/manjaro-hello.glade:240

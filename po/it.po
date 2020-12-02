@@ -79,7 +79,7 @@ msgid "Chat room"
 msgstr "Canale IRC"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "Mailing lists"
 
 #: ui/manjaro-hello.glade:240

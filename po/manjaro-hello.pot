@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 22:03+0100\n"
+"POT-Creation-Date: 2020-12-02 11:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgid "Discover software"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:224
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:241

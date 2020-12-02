@@ -77,8 +77,8 @@ msgid "Chat room"
 msgstr "Chat room"
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
-msgstr "Mailling lists"
+msgid "Mailing lists"
+msgstr "Mailing lists"
 
 #: ui/manjaro-hello.glade:240
 msgid "Development"

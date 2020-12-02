@@ -73,7 +73,7 @@ msgid "Chat room"
 msgstr ""
 
 #: ui/manjaro-hello.glade:223
-msgid "Mailling lists"
+msgid "Mailing lists"
 msgstr "የ ደብዳቤ ዝርዝር "
 
 #: ui/manjaro-hello.glade:240
