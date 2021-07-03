@@ -457,7 +457,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="name">appLayouts</property>
                     <property name="can-focus">False</property>
                     <property name="receives-default">True</property>
-                    <property name="tooltip-text" translatable="yes">Manjaro Gnone config tool</property>
+                    <property name="tooltip-text" translatable="yes">Manjaro Gnome config tool</property>
                     <property name="margin-left">15</property>
                     <property name="margin-right">15</property>
                     <signal name="clicked" handler="on_btn_clicked" swapped="no"/>

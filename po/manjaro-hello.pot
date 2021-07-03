@@ -110,7 +110,7 @@ msgid "Gnome Layouts Manager"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:460
-msgid "Manjaro Gnone config tool"
+msgid "Manjaro Gnome config tool"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:504
