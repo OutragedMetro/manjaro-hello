@@ -14,7 +14,7 @@ import sys
 import webbrowser
 
 gi.require_version("Gtk", "3.0")
-from gi.repository import Gtk, GdkPixbuf
+from gi.repository import Gtk, GdkPixbuf, Gdk
 
 
 class EmbedManager:
@@ -334,7 +334,7 @@ class Hello(Gtk.Window):
 
     def on_link_clicked(self, link, _=None):
         """Event for clicked link."""
-        webbrowser.open_new_tab(self.preferences["urls"][link.get_name()])
+        Gtk.show_uri_on_window(None, self.preferences["urls"][link.get_name()], Gdk.CURRENT_TIME)
 
     def on_delete_window(self, *args):
         """Event to quit app."""
