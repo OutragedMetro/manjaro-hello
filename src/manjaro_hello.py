@@ -98,6 +98,10 @@ class Hello(Gtk.Window):
         Gtk.Window.__init__(self, title="Manjaro Hello", border_width=6)
         self.app = "manjaro-hello"
         self.dev = "--dev" in sys.argv  # Dev mode activated ?
+        screen = Gdk.Screen.get_default()
+        provider = Gtk.CssProvider()
+        provider.load_from_path(os.path.abspath("src/style.css"))
+        Gtk.StyleContext.add_provider_for_screen(screen, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
         # Load preferences
         if self.dev:
@@ -117,7 +121,11 @@ class Hello(Gtk.Window):
         self.builder = Gtk.Builder.new_from_file(self.preferences["ui_path"])
         self.builder.connect_signals(self)
         self.window = self.builder.get_object("window")
-
+        self.window.set_decorated(True)
+        hb = Gtk.HeaderBar()
+        hb.set_show_close_button(True)
+        hb.props.title = "Convert2Html"
+        self.set_titlebar(hb)
         # Subtitle of headerbar
         self.builder.get_object("headerbar").props.subtitle = ' '.join(get_lsb_infos())
 
@@ -172,6 +180,12 @@ class Hello(Gtk.Window):
             manager.get_modules(self)
             manager.display(self)
 
+        button = Gtk.Button()
+        button.set_relief(Gtk.ReliefStyle.NONE)
+        img = Gtk.Image.new_from_icon_name("window-close-symbolic", Gtk.IconSize.MENU)
+        button.set_image(img)
+        button.connect("clicked", Gtk.main_quit)
+        self.window.add(button)
         self.window.show()
 
     def get_best_locale(self):
@@ -323,13 +337,11 @@ class Hello(Gtk.Window):
             dialog.hide()
         elif name == "appBrowser":
             # or use only "on_btn_clicked" ?
-            self.builder.get_object("home").set_sensitive(not name == "home")
             self.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def on_btn_clicked(self, btn):
         """Event for applications button."""
         name = btn.get_name()
-        self.builder.get_object("home").set_sensitive(not name == "home")
         self.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def on_link_clicked(self, link, _=None):

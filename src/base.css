@@ -1,0 +1,11 @@
+window {
+    border-bottom-left-radius: 7;
+    border-bottom-right-radius: 7;
+}
+
+.homepage button {
+    transition: border 100ms ease-in-out;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
