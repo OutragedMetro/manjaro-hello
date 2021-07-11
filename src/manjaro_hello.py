@@ -153,6 +153,9 @@ class Hello(Gtk.Window):
             label = Gtk.Label(wrap=True)
             image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
             backBtn=Gtk.Button(label=None, image=image)
+            backBtn.set_name("home")
+            backBtn.connect("clicked", self.on_btn_clicked)
+            
             grid = Gtk.Grid()
             grid.attach (backBtn, 0, 1, 1, 1)
             grid.attach(label, 1, 2, 1, 1)
@@ -181,12 +184,6 @@ class Hello(Gtk.Window):
             manager.get_modules(self)
             manager.display(self)
 
-        button = Gtk.Button()
-        button.set_relief(Gtk.ReliefStyle.NONE)
-        img = Gtk.Image.new_from_icon_name("window-close-symbolic", Gtk.IconSize.MENU)
-        button.set_image(img)
-        button.connect("clicked", Gtk.main_quit)
-        self.window.add(button)
         self.window.show()
 
     def get_best_locale(self):
