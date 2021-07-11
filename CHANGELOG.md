@@ -1,6 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
-
+## [0.6.7] - 2020-07-11
+### Added
+- Some design changes
 ## [0.6.2] - 2019-10-02
 ### Added
 - Pages: tr, ko-KR.
