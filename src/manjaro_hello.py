@@ -121,11 +121,7 @@ class Hello(Gtk.Window):
         self.builder = Gtk.Builder.new_from_file(self.preferences["ui_path"])
         self.builder.connect_signals(self)
         self.window = self.builder.get_object("window")
-        self.window.set_decorated(True)
-        hb = Gtk.HeaderBar()
-        hb.set_show_close_button(True)
-        hb.props.title = "Convert2Html"
-        self.set_titlebar(hb)
+        
         # Subtitle of headerbar
         self.builder.get_object("headerbar").props.subtitle = ' '.join(get_lsb_infos())
 
@@ -155,7 +151,12 @@ class Hello(Gtk.Window):
             scrolled_window = Gtk.ScrolledWindow()
             viewport = Gtk.Viewport(border_width=10)
             label = Gtk.Label(wrap=True)
-            viewport.add(label)
+            image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
+            backBtn=Gtk.Button(label=None, image=image)
+            grid = Gtk.Grid()
+            grid.attach (backBtn, 0, 1, 1, 1)
+            grid.attach(label, 1, 2, 1, 1)
+            viewport.add(grid)
             scrolled_window.add(viewport)
             scrolled_window.show_all()
             self.builder.get_object("stack").add_named(scrolled_window, page + "page")
@@ -251,7 +252,6 @@ class Hello(Gtk.Window):
             },
             "tooltip_text": {
                 "about",
-                "home",
                 "development",
                 "discover",
                 "donate",
@@ -272,7 +272,7 @@ class Hello(Gtk.Window):
         # Change content of pages
         for page in self.pages:
             child = self.builder.get_object("stack").get_child_by_name(page + "page")
-            label = child.get_children()[0].get_children()[0]
+            label = child.get_children()[0].get_children()[0].get_children()[0]
             label.set_markup(self.get_page(page))
 
     def set_autostart(self, autostart):

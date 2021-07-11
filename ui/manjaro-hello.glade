@@ -447,7 +447,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                 <property name="can-focus">False</property>
                 <property name="halign">center</property>
                 <property name="valign">end</property>
-                <property name="spacing">15</property>
+                <property name="spacing">10</property>
                 <child>
                   <object class="GtkEventBox">
                     <property name="name">telegram</property>
@@ -528,6 +528,9 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="position">3</property>
                   </packing>
                 </child>
+                <style>
+                  <class name="social"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
