@@ -1,6 +1,6 @@
 window {
-    border-bottom-left-radius: 7;
-    border-bottom-right-radius: 7;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .homepage button {
@@ -8,4 +8,8 @@ window {
     padding: 10px 30px;
     border: none;
     border-radius: 5px 5px 5px 5px;
+}
+
+.aboutdialog {
+    border-radius: 7px;
 }

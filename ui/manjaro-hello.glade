@@ -665,5 +665,8 @@ Stéphane
         </child>
       </object>
     </child>
+    <style>
+      <class name="aboutdialog"/>
+    </style>
   </object>
 </interface>

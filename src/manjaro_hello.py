@@ -330,6 +330,7 @@ class Hello(Gtk.Window):
             self.set_autostart(action.get_active())
         elif name == "about":
             dialog = self.builder.get_object("aboutdialog")
+            dialog.set_decorated(False)
             dialog.run()
             dialog.hide()
         elif name == "appBrowser":
