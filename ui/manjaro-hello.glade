@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.38.1 -->
+<!-- Generated with glade 3.38.2 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <object class="GtkImage" id="homeicon">
+  <object class="GtkImage" id="abouticon">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
-    <property name="icon-name">go-home-symbolic</property>
-  </object>
-  <object class="GtkImage" id="iconabout">
-    <property name="visible">True</property>
-    <property name="can-focus">False</property>
-    <property name="icon-name">help-about-symbolic</property>
+    <property name="icon-name">emblem-favorite</property>
   </object>
   <object class="GtkWindow" id="window">
     <property name="can-focus">False</property>
@@ -26,7 +21,7 @@
         <property name="hexpand">True</property>
         <property name="transition-type">crossfade</property>
         <child>
-          <!-- n-columns=3 n-rows=10 -->
+          <!-- n-columns=3 n-rows=11 -->
           <object class="GtkGrid" id="homepage">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
@@ -44,7 +39,7 @@
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">0</property>
+                <property name="top-attach">1</property>
                 <property name="width">3</property>
               </packing>
             </child>
@@ -61,7 +56,7 @@
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">1</property>
+                <property name="top-attach">2</property>
                 <property name="width">3</property>
               </packing>
             </child>
@@ -79,7 +74,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">2</property>
+                <property name="top-attach">3</property>
                 <property name="width">3</property>
               </packing>
             </child>
@@ -94,7 +89,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">3</property>
+                <property name="top-attach">4</property>
               </packing>
             </child>
             <child>
@@ -108,7 +103,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">3</property>
+                <property name="top-attach">4</property>
               </packing>
             </child>
             <child>
@@ -122,7 +117,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">2</property>
-                <property name="top-attach">3</property>
+                <property name="top-attach">4</property>
               </packing>
             </child>
             <child>
@@ -136,7 +131,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">4</property>
+                <property name="top-attach">5</property>
               </packing>
             </child>
             <child>
@@ -151,7 +146,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">5</property>
+                <property name="top-attach">6</property>
               </packing>
             </child>
             <child>
@@ -168,7 +163,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">6</property>
+                <property name="top-attach">7</property>
               </packing>
             </child>
             <child>
@@ -182,7 +177,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">2</property>
-                <property name="top-attach">4</property>
+                <property name="top-attach">5</property>
               </packing>
             </child>
             <child>
@@ -199,7 +194,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">4</property>
+                <property name="top-attach">5</property>
               </packing>
             </child>
             <child>
@@ -216,7 +211,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">5</property>
+                <property name="top-attach">6</property>
               </packing>
             </child>
             <child>
@@ -233,7 +228,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">6</property>
+                <property name="top-attach">7</property>
               </packing>
             </child>
             <child>
@@ -250,7 +245,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">2</property>
-                <property name="top-attach">5</property>
+                <property name="top-attach">6</property>
               </packing>
             </child>
             <child>
@@ -267,7 +262,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">2</property>
-                <property name="top-attach">6</property>
+                <property name="top-attach">7</property>
               </packing>
             </child>
             <child>
@@ -278,90 +273,57 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                 <property name="vexpand">True</property>
                 <property name="spacing">10</property>
                 <child>
-                  <object class="GtkBox" id="social">
+                  <object class="GtkComboBoxText" id="languages">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="spacing">5</property>
-                    <child>
-                      <object class="GtkEventBox">
-                        <property name="name">telegram</property>
-                        <property name="visible">True</property>
-                        <property name="can-focus">False</property>
-                        <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
-                        <child>
-                          <object class="GtkImage" id="telegram">
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="tooltip-text">Telegram</property>
-                          </object>
-                        </child>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkEventBox">
-                        <property name="name">facebook</property>
-                        <property name="visible">True</property>
-                        <property name="can-focus">False</property>
-                        <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
-                        <child>
-                          <object class="GtkImage" id="facebook">
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="tooltip-text">Facebook</property>
-                          </object>
-                        </child>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">1</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkEventBox">
-                        <property name="name">twitter</property>
-                        <property name="visible">True</property>
-                        <property name="can-focus">False</property>
-                        <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
-                        <child>
-                          <object class="GtkImage" id="twitter">
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="tooltip-text">Twitter</property>
-                          </object>
-                        </child>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">2</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkEventBox">
-                        <property name="name">reddit</property>
-                        <property name="visible">True</property>
-                        <property name="can-focus">False</property>
-                        <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
-                        <child>
-                          <object class="GtkImage" id="reddit">
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="tooltip-text">Reddit</property>
-                          </object>
-                        </child>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">3</property>
-                      </packing>
-                    </child>
+                    <items>
+                      <item id="sq">Albanian</item>
+                      <item id="ar">Arabic</item>
+                      <item id="ast-ES">Asturian (Spain)</item>
+                      <item id="be">Belarusian</item>
+                      <item id="bg">Bulgarian</item>
+                      <item id="ca">Catalan</item>
+                      <item id="zh-CN">Chinese (China)</item>
+                      <item id="zh-TW">Chinese (Taiwan)</item>
+                      <item id="hr">Croatian</item>
+                      <item id="cs">Czech</item>
+                      <item id="da">Danish</item>
+                      <item id="nl">Dutch</item>
+                      <item id="en">English</item>
+                      <item id="fi">Finnish</item>
+                      <item id="fr">French</item>
+                      <item id="de">German</item>
+                      <item id="ka">Georgian</item>
+                      <item id="el-GR">Greek (Greece)</item>
+                      <item id="he">Hebrew</item>
+                      <item id="hi-IN">Hindi (India)</item>
+                      <item id="hu">Hungarian</item>
+                      <item id="is">Icelandic</item>
+                      <item id="id-ID">Indonesian (Indonesia)</item>
+                      <item id="it">Italian</item>
+                      <item id="ja">Japanese</item>
+                      <item id="ko-KR">Korean (Korea)</item>
+                      <item id="lt">Lithuanian</item>
+                      <item id="nb">Norwegian Bokmål</item>
+                      <item id="fa-IR">Persian (Iran)</item>
+                      <item id="pl">Polish</item>
+                      <item id="pt-BR">Portuguese (Brazil)</item>
+                      <item id="pt-PT">Portuguese (Portugal)</item>
+                      <item id="ro-RO">Romanian (Romania)</item>
+                      <item id="ru">Russian</item>
+                      <item id="sk">Slovak</item>
+                      <item id="sl-SI">Slovenian (Slovenia)</item>
+                      <item id="sl">Slovenian</item>
+                      <item id="es">Spanish</item>
+                      <item id="sr-RS">Serbian (Serbia)</item>
+                      <item id="sr">Serbian</item>
+                      <item id="sv">Swedish</item>
+                      <item id="th">Thai</item>
+                      <item id="tr">Turkish</item>
+                      <item id="uk">Ukrainian</item>
+                      <item id="vi-VN">Vietnamese (Viet Nam)</item>
+                    </items>
+                    <signal name="changed" handler="on_languages_changed" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -374,6 +336,8 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="halign">end</property>
+                    <property name="valign">center</property>
+                    <property name="vexpand">True</property>
                     <property name="label" translatable="yes">Launch at start</property>
                   </object>
                   <packing>
@@ -387,18 +351,20 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
                     <property name="name">autostart</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <property name="valign">center</property>
+                    <property name="vexpand">True</property>
                     <signal name="notify::active" handler="on_action_clicked" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">False</property>
-                    <property name="fill">True</property>
+                    <property name="fill">False</property>
                     <property name="position">2</property>
                   </packing>
                 </child>
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">9</property>
+                <property name="top-attach">10</property>
                 <property name="width">3</property>
               </packing>
             </child>
@@ -412,7 +378,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">7</property>
+                <property name="top-attach">8</property>
               </packing>
             </child>
             <child>
@@ -425,7 +391,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">1</property>
-                <property name="top-attach">8</property>
+                <property name="top-attach">9</property>
               </packing>
             </child>
             <child>
@@ -471,8 +437,104 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
               </object>
               <packing>
                 <property name="left-attach">0</property>
-                <property name="top-attach">8</property>
+                <property name="top-attach">9</property>
                 <property name="width">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="social">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">center</property>
+                <property name="valign">end</property>
+                <property name="spacing">10</property>
+                <child>
+                  <object class="GtkEventBox">
+                    <property name="name">telegram</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="telegram">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="tooltip-text">Telegram</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEventBox">
+                    <property name="name">facebook</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="facebook">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="tooltip-text">Facebook</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEventBox">
+                    <property name="name">twitter</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="twitter">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="tooltip-text">Twitter</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEventBox">
+                    <property name="name">reddit</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <signal name="button-press-event" handler="on_link_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="reddit">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="tooltip-text">Reddit</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+                <style>
+                  <class name="social"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">10</property>
               </packing>
             </child>
             <child>
@@ -481,6 +543,18 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
             <child>
               <placeholder/>
             </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <style>
+              <class name="homepage"/>
+            </style>
           </object>
           <packing>
             <property name="name">homepage</property>
@@ -495,16 +569,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
         <property name="title">Manjaro Hello</property>
         <property name="show-close-button">True</property>
         <child>
-          <object class="GtkButton" id="home">
-            <property name="name">home</property>
-            <property name="visible">True</property>
-            <property name="sensitive">False</property>
-            <property name="can-focus">False</property>
-            <property name="receives-default">True</property>
-            <property name="tooltip-text" translatable="yes">Home</property>
-            <property name="image">homeicon</property>
-            <signal name="clicked" handler="on_btn_clicked" swapped="no"/>
-          </object>
+          <placeholder/>
         </child>
         <child>
           <object class="GtkButton" id="about">
@@ -513,7 +578,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
             <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <property name="tooltip-text" translatable="yes">About</property>
-            <property name="image">iconabout</property>
+            <property name="image">abouticon</property>
             <signal name="clicked" handler="on_action_clicked" swapped="no"/>
           </object>
           <packing>
@@ -522,61 +587,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
           </packing>
         </child>
         <child>
-          <object class="GtkComboBoxText" id="languages">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <items>
-              <item id="sq">Albanian</item>
-              <item id="ar">Arabic</item>
-              <item id="ast-ES">Asturian (Spain)</item>
-              <item id="be">Belarusian</item>
-              <item id="bg">Bulgarian</item>
-              <item id="ca">Catalan</item>
-              <item id="zh-CN">Chinese (China)</item>
-              <item id="zh-TW">Chinese (Taiwan)</item>
-              <item id="hr">Croatian</item>
-              <item id="cs">Czech</item>
-              <item id="da">Danish</item>
-              <item id="nl">Dutch</item>
-              <item id="en">English</item>
-              <item id="fi">Finnish</item>
-              <item id="fr">French</item>
-              <item id="de">German</item>
-              <item id="ka">Georgian</item>
-              <item id="el-GR">Greek (Greece)</item>
-              <item id="he">Hebrew</item>
-              <item id="hi-IN">Hindi (India)</item>
-              <item id="hu">Hungarian</item>
-              <item id="is">Icelandic</item>
-              <item id="id-ID">Indonesian (Indonesia)</item>
-              <item id="it">Italian</item>
-              <item id="ja">Japanese</item>
-              <item id="ko-KR">Korean (Korea)</item>
-              <item id="lt">Lithuanian</item>
-              <item id="nb">Norwegian Bokmål</item>
-              <item id="fa-IR">Persian (Iran)</item>
-              <item id="pl">Polish</item>
-              <item id="pt-BR">Portuguese (Brazil)</item>
-              <item id="pt-PT">Portuguese (Portugal)</item>
-              <item id="ro-RO">Romanian (Romania)</item>
-              <item id="ru">Russian</item>
-              <item id="sk">Slovak</item>
-              <item id="sl-SI">Slovenian (Slovenia)</item>
-              <item id="sl">Slovenian</item>
-              <item id="es">Spanish</item>
-              <item id="sr-RS">Serbian (Serbia)</item>
-              <item id="sr">Serbian</item>
-              <item id="sv">Swedish</item>
-              <item id="th">Thai</item>
-              <item id="tr">Turkish</item>
-              <item id="uk">Ukrainian</item>
-              <item id="vi-VN">Vietnamese (Viet Nam)</item>
-            </items>
-            <signal name="changed" handler="on_languages_changed" swapped="no"/>
-          </object>
-          <packing>
-            <property name="position">2</property>
-          </packing>
+          <placeholder/>
         </child>
       </object>
     </child>
@@ -587,7 +598,7 @@ We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we
     <property name="type-hint">dialog</property>
     <property name="transient-for">window</property>
     <property name="program-name">Manjaro Hello</property>
-    <property name="version">0.6.6</property>
+    <property name="version">0.6.7</property>
     <property name="comments" translatable="yes">Welcome screen for Manjaro</property>
     <property name="website">https://gitlab.manjaro.org/applications/manjaro-hello</property>
     <property name="website-label">GitLab</property>
@@ -596,7 +607,8 @@ Johnathan Jenkins
 Frede Hundewadt
 Bernhard Landauer
 Philip Müller
-Papa Joker</property>
+Papa Joker
+Oguz Kagan EREN</property>
     <property name="translator-credits">abdelhak gasmi
 Al Manja
 Albert Cutrona
@@ -653,5 +665,8 @@ Stéphane
         </child>
       </object>
     </child>
+    <style>
+      <class name="aboutdialog"/>
+    </style>
   </object>
 </interface>

@@ -98,6 +98,10 @@ class Hello(Gtk.Window):
         Gtk.Window.__init__(self, title="Manjaro Hello", border_width=6)
         self.app = "manjaro-hello"
         self.dev = "--dev" in sys.argv  # Dev mode activated ?
+        screen = Gdk.Screen.get_default()
+        provider = Gtk.CssProvider()
+        provider.load_from_path(os.path.abspath("src/style.css"))
+        Gtk.StyleContext.add_provider_for_screen(screen, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
         # Load preferences
         if self.dev:
@@ -117,7 +121,7 @@ class Hello(Gtk.Window):
         self.builder = Gtk.Builder.new_from_file(self.preferences["ui_path"])
         self.builder.connect_signals(self)
         self.window = self.builder.get_object("window")
-
+        
         # Subtitle of headerbar
         self.builder.get_object("headerbar").props.subtitle = ' '.join(get_lsb_infos())
 
@@ -147,7 +151,15 @@ class Hello(Gtk.Window):
             scrolled_window = Gtk.ScrolledWindow()
             viewport = Gtk.Viewport(border_width=10)
             label = Gtk.Label(wrap=True)
-            viewport.add(label)
+            image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
+            backBtn=Gtk.Button(label=None, image=image)
+            backBtn.set_name("home")
+            backBtn.connect("clicked", self.on_btn_clicked)
+            
+            grid = Gtk.Grid()
+            grid.attach (backBtn, 0, 1, 1, 1)
+            grid.attach(label, 1, 2, 1, 1)
+            viewport.add(grid)
             scrolled_window.add(viewport)
             scrolled_window.show_all()
             self.builder.get_object("stack").add_named(scrolled_window, page + "page")
@@ -237,7 +249,6 @@ class Hello(Gtk.Window):
             },
             "tooltip_text": {
                 "about",
-                "home",
                 "development",
                 "discover",
                 "donate",
@@ -258,7 +269,7 @@ class Hello(Gtk.Window):
         # Change content of pages
         for page in self.pages:
             child = self.builder.get_object("stack").get_child_by_name(page + "page")
-            label = child.get_children()[0].get_children()[0]
+            label = child.get_children()[0].get_children()[0].get_children()[0]
             label.set_markup(self.get_page(page))
 
     def set_autostart(self, autostart):
@@ -319,17 +330,16 @@ class Hello(Gtk.Window):
             self.set_autostart(action.get_active())
         elif name == "about":
             dialog = self.builder.get_object("aboutdialog")
+            dialog.set_decorated(False)
             dialog.run()
             dialog.hide()
         elif name == "appBrowser":
             # or use only "on_btn_clicked" ?
-            self.builder.get_object("home").set_sensitive(not name == "home")
             self.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def on_btn_clicked(self, btn):
         """Event for applications button."""
         name = btn.get_name()
-        self.builder.get_object("home").set_sensitive(not name == "home")
         self.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def on_link_clicked(self, link, _=None):
