@@ -99,9 +99,6 @@ class Hello(Gtk.Window):
         self.app = "manjaro-hello"
         self.dev = "--dev" in sys.argv  # Dev mode activated ?
         screen = Gdk.Screen.get_default()
-        provider = Gtk.CssProvider()
-        provider.load_from_path(os.path.abspath("src/style.css"))
-        Gtk.StyleContext.add_provider_for_screen(screen, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
         # Load preferences
         if self.dev:
@@ -110,12 +107,18 @@ class Hello(Gtk.Window):
             self.preferences["desktop_path"] = os.getcwd() + f"/{self.app}.desktop"
             self.preferences["locale_path"] = "locale/"
             self.preferences["ui_path"] = f"ui/{self.app}.glade"
+            self.preferences["style_path"] = f"ui/style.css"
         else:
             self.preferences = read_json(f"/usr/share/{self.app}/data/preferences.json")
         # Get saved infos
         self.save = read_json(self.preferences["save_path"])
         if not self.save:
             self.save = {"locale": None}
+
+        # Import Css
+        provider = Gtk.CssProvider()
+        provider.load_from_path(self.preferences["style_path"])
+        Gtk.StyleContext.add_provider_for_screen(screen, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
         # Init window
         self.builder = Gtk.Builder.new_from_file(self.preferences["ui_path"])
