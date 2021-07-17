@@ -52,6 +52,11 @@ class Embed:
     def load(self, window: Gtk.Window) -> bool:
         """ load modules if installed"""
         raise Exception('abstract method')
+    
+    def on_btn_clicked(self, btn, window: Gtk.Window):
+        """Event for applications button."""
+        name = btn.get_name()
+        window.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def display(self, window: Gtk.Window):
         """ show btn and add page"""
@@ -66,6 +71,16 @@ class EmbedLayouts(Embed):
             from layoutswitcherlib.layoutsbox import LayoutBox
             try:
                 self.box = LayoutBox(window, usehello=True)
+                grid = Gtk.Grid()
+                grid.set_margin_left(15)
+                image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
+                backBtn=Gtk.Button(label=None, image=image)
+                backBtn.set_name("home")
+                backBtn.connect("clicked", self.on_btn_clicked,window)
+                grid.attach (backBtn, 0, 0, 1, 1)
+                self.box.pack_start(grid, expand=False, fill=False, padding=10)
+                self.box.reorder_child(grid,0)
+                self.box.show_all();
             except Exception as err:
                 print("Error in Embled application:", err)
         except ModuleNotFoundError as err:
@@ -82,7 +97,20 @@ class EmbedBrowser(Embed):
             from application_utility.config.hello_config import HelloConfig
             try:
                 conf = HelloConfig(application="manjaro-hello")
-                self.box = ApplicationBrowser(conf, window)
+                grid = Gtk.Grid()
+                grid.set_margin_left(5)
+                grid.set_margin_top(5)
+                grid.set_margin_bottom(5)
+                image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
+                backBtn=Gtk.Button(label=None, image=image)
+                backBtn.set_name("home")
+                backBtn.connect("clicked", self.on_btn_clicked,window)
+                grid.attach (backBtn, 0, 1, 1, 1)
+                app=ApplicationBrowser(conf, window)
+                app.info_bar_appstream.pack_start(grid, expand=False, fill=False, padding=10)
+                app.info_bar_appstream.reorder_child(grid,0)
+                app.show_all()
+                self.box = app
             except Exception as err:
                 print("Error in Embled application:", err)
         except ModuleNotFoundError as err:
@@ -336,9 +364,6 @@ class Hello(Gtk.Window):
             dialog.set_decorated(False)
             dialog.run()
             dialog.hide()
-        elif name == "appBrowser":
-            # or use only "on_btn_clicked" ?
-            self.builder.get_object("stack").set_visible_child_name(name + "page")
 
     def on_btn_clicked(self, btn):
         """Event for applications button."""
