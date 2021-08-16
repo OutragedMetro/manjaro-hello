@@ -10,7 +10,7 @@ For users that preferred the old vertical desktop layout, we have the Manjaro le
 
 Firefox now comes with the gnome-desktop style theme enabled by default for more consistent look with the desktop, but this can be toggled with one click from gnome-layout-switcher for users preferring the native Firefox look.
 
-The <big>Plasma edition</big> comes with the latest Plasma 5.22 series, Frameworks 5.84 and Applications (Gear) 21.04. We also updated our default theme to match more upstream Breeze theming. This includes also a new wallpaper.
+The <big>Plasma edition</big> comes with the latest Plasma 5.22 series, Frameworks 5.85 and Applications (Gear) 21.08. We also updated our default theme to match more upstream Breeze theming. This includes also a new wallpaper.
 
 Plasma has become more pleasurable to use through improvements to the design and greater smoothness and consistency in transparencies, blurs, icons, and animations. Moving things to accessible locations, offering hints and visual cues, and creating new settings allows you to customize your work environment to make it fit perfectly to your needs. Following the true KDE spirit, the push for a more stable and attractive desktop does not mean you have to renounce control over how you want it to look or behave. Plasma 5.22, as always, packs all the flexibility and tools for customization you have come to expect and love, and some more to boot.
 
