@@ -70,7 +70,7 @@ msgid "Forums"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:207
-msgid "Discover software"
+msgid "Software Center"
 msgstr ""
 
 #: ../ui/manjaro-hello.glade:224
